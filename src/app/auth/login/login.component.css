@@ -1,34 +1,42 @@
 .login-container {
+  font-family:  Impact;
+  font-size: 40px;
     width: 300px;
     margin: 100px auto;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    background-color: #3783cf; 
+    background-color: #94c2f0; 
   }
   
   h2 {
-    text-align: center;
-    color: #c9538a; /* Dark gray */
+text-align: center;
+    color: #4478b0; 
+  }
+  ::placeholder{
+    color:white;
   }
   
   input[type="text"],
   input[type="password"],
   button {
+    color: white;
     width: 100%;
     margin-bottom: 10px;
     padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
+    border: 4px solid #f0ecec;
+    border-radius: 9px;
+    background-color: transparent;
     box-sizing: border-box;
   }
   
   button {
-    background-color: #6288b1; /* Blue */
-    color: #fff;
+    background-color: #94c2f0; 
+    color: #4478b0;
     cursor: pointer;
   }
   
   button:hover {
-    background-color: #3cd650; /* Darker blue on hover */
+    color:white;
+    background-color: #274b81; 
   }
