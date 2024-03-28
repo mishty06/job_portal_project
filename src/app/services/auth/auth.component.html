@@ -1,0 +1,19 @@
+<div class="auth-container">
+    <h2>Login or Register</h2>
+    <div *ngIf="!isLoggedIn">
+      <h3>Login</h3>
+      <input type="text" placeholder="Username" [(ngModel)]="username">
+      <input type="password" placeholder="Password" [(ngModel)]="password">
+      <button (click)="login()">Login</button>
+      <h3>Register</h3>
+      <input type="text" placeholder="Username" [(ngModel)]="newUsername">
+      <input type="email" placeholder="Email" [(ngModel)]="email">
+      <input type="password" placeholder="Password" [(ngModel)]="newPassword">
+      <button (click)="register()">Register</button>
+    </div>
+    <div *ngIf="isLoggedIn">
+      <p>You are logged in as {{ username }}</p>
+      <button (click)="logout()">Logout</button>
+    </div>
+  </div>
+  

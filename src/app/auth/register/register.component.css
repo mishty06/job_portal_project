@@ -1,0 +1,35 @@
+.register-container {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f9fa; /* Light gray */
+  }
+  
+  h2 {
+    text-align: center;
+    color: #343a40; /* Dark gray */
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  button {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #28a745; /* Green */
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #218838; /* Darker green on hover */
+  }

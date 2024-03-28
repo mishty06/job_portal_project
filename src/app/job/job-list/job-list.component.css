@@ -1,0 +1,30 @@
+.job-detail-container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f9fa; /* Light gray */
+  }
+  
+  .job-detail-container h2 {
+    color: #007bff; /* Blue */
+  }
+  
+  .job-detail-container p {
+    margin-bottom: 10px;
+  }
+  
+  .job-detail-container button {
+    background-color: #007bff; /* Blue */
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .job-detail-container button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  

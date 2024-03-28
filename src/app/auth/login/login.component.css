@@ -1,0 +1,34 @@
+.login-container {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #3783cf; 
+  }
+  
+  h2 {
+    text-align: center;
+    color: #c9538a; /* Dark gray */
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  button {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #6288b1; /* Blue */
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3cd650; /* Darker blue on hover */
+  }

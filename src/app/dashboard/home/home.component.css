@@ -1,0 +1,13 @@
+.home-container {
+    width: 80%;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f9fa; /* Light gray */
+  }
+  
+  h2 {
+    text-align: center;
+    color: #343a40; /* Dark gray */
+  }
